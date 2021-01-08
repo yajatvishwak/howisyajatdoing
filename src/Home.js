@@ -43,9 +43,9 @@ const Home = () => {
       <div className="header">
         <div className="title">How is yajat doing?</div>
         <div className="lastmod">
-          This is a record system because i am bored in the covid season. Screw
-          you, China. My best wishes with those who are presently suffering
-          through corona. Speedy recovery guys!
+          This is a record system because i am bored and i have a lot of time
+          since i have COVID19. Screw you, China. My best wishes with those who
+          are presently suffering through corona. Speedy recovery guys!
         </div>
         <div className="lastmod">
           Last updated:{" "}
