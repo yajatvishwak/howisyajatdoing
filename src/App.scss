@@ -1,0 +1,66 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700;800&display=swap");
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 0.4fr 1.6fr;
+  gap: 0px 0px;
+  grid-template-areas:
+    "header header header"
+    "main main main";
+  height: 100vh;
+
+  font-family: "Open Sans", sans-serif;
+}
+.main {
+  display: grid;
+  grid-area: main;
+}
+.header {
+  display: grid;
+  grid-area: header;
+  place-items: center;
+  font-family: "Open Sans", sans-serif;
+  text-align: center;
+  margin-top: 2rem;
+  .title {
+    font-size: 3rem;
+    font-weight: bold;
+  }
+  .lastmod {
+    margin: 1rem;
+    max-width: 30rem;
+  }
+}
+.parent {
+  border-radius: 1rem;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  background-color: #f1f1f1;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.box {
+  display: grid;
+  place-items: center;
+  text-align: center;
+  height: 300px;
+  width: 300px;
+  margin: 1rem;
+  background-color: white;
+  border-radius: 1rem;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  .value {
+    font-size: 3rem;
+    font-weight: bolder;
+  }
+
+  .text {
+    margin-top: 1rem;
+  }
+}

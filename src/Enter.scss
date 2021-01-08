@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+.title {
+  font-size: 3rem;
+}
+.input {
+  padding: 1rem;
+  margin: 1rem;
+}
+.inputContainer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
