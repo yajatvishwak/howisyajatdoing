@@ -58,6 +58,12 @@
   padding: 1rem;
   border-radius: 1rem;
 }
+.responsive-img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  border-radius: 1rem;
+}
 .card {
   display: flex;
   flex-direction: column;
